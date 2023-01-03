@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+
+.imgcontainer{
+    width: 100%;
+    height: 100vh;
+    /*border: 2px solid white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 30%;
+    height: auto;
+    margin: 30px;
+    filter:grayscale(75%);
+    
+}
+
+img:hover{
+    width: 30%;
+    height: auto;
+    margin: 30px;
+    scale: 1.25;
+    cursor: pointer;
+    filter:grayscale(0%);
+    transition: 1.1s;
+}
